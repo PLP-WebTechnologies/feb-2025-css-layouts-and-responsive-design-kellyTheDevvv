@@ -1,0 +1,46 @@
+body{
+    background-color : aliceblue;
+    font-size : 18px;
+}
+
+.image{
+    display : flex;
+    flex-direction: row;
+    width : 100%;
+    height : auto;
+    margin : 0 auto;
+    
+}
+
+.container{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width : 100%;
+    height : auto;
+    margin : 0 auto;
+}
+
+.box{
+    
+    display : flex;
+    flex : 1;
+    width : 200px;
+    height : 250px;
+    margin : 20px;
+    padding : 20px;
+}
+
+@media only screen  and (max-width : 600px){
+    body{
+        background-color : lime;
+        font-size : 14px;
+    }
+}
+@media only screen and (min-width : 600px){
+    body{
+        background-color : lightblue;
+        font-size : 18px;
+    }
+}
+
